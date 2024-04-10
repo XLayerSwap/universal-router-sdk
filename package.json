@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "1.9.0",
+  "name": "@xlayerswap/universal-router-sdk",
+  "version": "1.10.0",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -50,11 +50,11 @@
   },
   "dependencies": {
     "@uniswap/permit2-sdk": "^1.2.0",
-    "@uniswap/router-sdk": "^1.9.0",
-    "@uniswap/sdk-core": "^4.2.0",
     "@uniswap/universal-router": "1.6.0",
-    "@uniswap/v2-sdk": "^4.3.0",
-    "@uniswap/v3-sdk": "^3.11.0",
+    "@xlayerswap/router-sdk": "^1.11.0",
+    "@xlayerswap/sdk-core": "^4.4.0",
+    "@xlayerswap/v2-sdk": "^4.5.0",
+    "@xlayerswap/v3-sdk": "^3.13.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },
@@ -65,5 +65,6 @@
   "bugs": {
     "url": "https://github.com/Uniswap/universal-router-sdk/issues"
   },
-  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme"
+  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme",
+  "packageManager": "yarn@3.6.4"
 }

@@ -6,3 +6,11 @@ docs
 cache
 out
 .env
+
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

@@ -27,10 +27,10 @@ const { calldata, value } = SwapRouter.swapCallParameters([looksRareTrades, seap
 ### Trading ERC20s on Uniswap
 warning: `swapERC20CallParameters()` to be deprecated in favor of `swapCallParameters()`
 ```typescript
-import { TradeType } from '@uniswap/sdk-core'
-import { Trade as V2TradeSDK } from '@uniswap/v2-sdk'
-import { Trade as V3TradeSDK } from '@uniswap/v3-sdk'
-import { MixedRouteTrade, MixedRouteSDK, Trade as RouterTrade } from '@uniswap/router-sdk'
+import { TradeType } from '@xlayerswap/sdk-core'
+import { Trade as V2TradeSDK } from '@xlayerswap/v2-sdk'
+import { Trade as V3TradeSDK } from '@xlayerswap/v3-sdk'
+import { MixedRouteTrade, MixedRouteSDK, Trade as RouterTrade } from '@xlayerswap/router-sdk'
 
 const options = { slippageTolerance, recipient }
 const routerTrade = new UniswapTrade(
